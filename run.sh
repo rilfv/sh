@@ -1,127 +1,46 @@
-#!/bin/bash
-#Silahkan di recode :)
-#Jangan Lupa Subscribe MaulanaRyM
+echo figlet TOOLS GANAS | lolcat
+echo
+echo"=======================================
+# Created by : Mr.B-CT
+# Contact    : 085711990416
+# Instagram  : @rilfv
+========================================"
+sleep 2
+'LADING...'
+sleep 2
+'10%'
+sleep 2
+'50%'
+sleep 2 
+'75%'
+sleep 2
+'100%'
+sleep 3
+'SELSAI !!'
+sleep 1
+echo '[1]Sadap Whatsapp
+[2] Meledakin hp
+[3] Exit' | lolcat
+read 'PILIH ! :' | lolcat
 
-#Variables
-b="\033[1m"
-u="\033[4m"
-bl="\033[30m"
-r="\033[31m"
-g="\033[32m"
-bu="\033[34m"
-m="\033[35m"
-c="\033[36m"
-w="\033[37m"
-endc="\033[0m"
-enda="\033[0m"
-blue="\033[1;34m"
-cyan="\033[1;36m"
-red="\033[1;31m"
-
-figlet Mr.Ril Tools | lolcat
-
-echo "_____________________________________________________________"
-echo "Tools    : Kumpulan Mr.Ril Tools $white                         " |lolcat
-echo "Creadby  : Mr.Ril $white                                      " |lolcat
-echo "Contact  : 08525711990416  $white                             " |lolcat
-echo "_____________________________________________________________"
-
-###################################################
-# CTRL + C
-###################################################
-trap ctrl_c INT
-ctrl_c() {
+if
 clear
-echo $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
-echo $cyan"[#]> Thanks"
-sleep 1
-echo ""
-echo $white"[#]> see you gayn :)"
-sleep 1
-exit
-}
+[ $nomor = 01 ] || [ $nomor = 01 ]
+then
+echo 'MAAF TOOLS INI HANYA UNTUK BECANDA WKWK' | lolcat
+fi
 
-lagi=1
-while [ $lagi -lt 6 ];
-do
-echo ""
-echo $b "1.  Nmap${enda}";
-echo "============================" | lolcat
-echo $r "2.  Admin-finder${endc}";
-echo "============================" | lolcat
-echo $g "3.  RED_HAWK${endc}";
-echo "============================" | lolcat
-echo $c "4   Lazymux${endc}";
-echo "============================" | lolcat
-echo $r "5.  Tools-X${endc}";
-echo "============================" | lolcat
-echo $r "6. Exit${endc}";
-echo ""
-echo "╭─Mr.Ril" |lolcat
-read -p "╰─#" pil;
+if
+clear
+[ $nomor = 2 ] || [ $nomor = ]
+then
+echo 'MAAF TOOLS INI HANYA UNTUK MENHIBUR' | lolcat
+fi
 
-# Nmap
-
-case $pil in
-1) pkg install nmap
-echo "${y} {1} Masukkan Web${endc}:"
-read web
-nmap $web
-echo
-
-;;
-
-# admin-finder
-
-2) git clone  https://github.com/the-c0d3r/admin-finder.git
-echo -e "${y} cara menggunakan admin finder"
-echo -e "${y} cd admin-finder"
-echo -e "${y} python admin-finder.py"
-cd /data/data/com.termux/files/home/admin-finder/
-python2 /data/data/com.termux/files/home/admin-finder/admin-finder.py
-echo
-
-;;
-
-#RED_HAWK
-
-3) git clone https://github.com/Tuhinshubhra/RED_HAWK
-echo -e "${y} Installer RED_HAWK..."
-echo -e "${y} cd RED_HAWK"
-echo -e "${y} php RED_HAWK.php"
-cd /data/data/com.termux/files/home/RED_HAWK/
-php /data/data/com.termux/files/home/RED_HAWK/ RED_HAWK.php
-
-;;
-
-#Lazymux
-
-4) git clone https://github.com/Gameye98/Lazymux
-echo "${y} Installer Lazymux..."
-echo "${y} cd Lazymux"
-echo "${y} python lazymux.py"
-cd /data/data/com.termux/files/home/Lazymux/
-python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
-
-;;
-
-#Tools-X
-
-5) git clone https://github.com/Rajkumrdusad/Tool-X
-echo "${y} Installer Tool-X..."
-echo "${y} cd Tool-X"
-echo "${y} sh install.aex"
-cd /data/data/com.termux/files/home/Tool-X
-bash /data/data/com.termux/files/home/Tool-X/sh install.aex
-
-;;
-
-
-6) echo "created by : Mr.Ril" | lolcat
-exit
-;;
-
-*) echo "sorry, pilihan yang kamu cari tidak tersedia"
-esac
-done
-done
+if 
+clear
+[ $nomor = 3 ] || [ $nomor = 03 ]
+then
+echo 'TERIMAKASIH TELAH MENGGUNAKAN TOOLS INI' | lolcat
+echo 'Salam hormat Mr.B-CT' | lolcat
+sleep 4
