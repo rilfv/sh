@@ -1,6 +1,6 @@
-cowsay -f eyes 'TOOLS GANAS' | lolcat
+cowsay -f ghostbusters 'TOOLS GANAS' | lolcat
 echo
-echo"=======================================
+echo "=======================================
 # Created by : Mr.B-CT
 # Contact    : 085711990416
 # Instagram  : @rilfv
@@ -18,6 +18,7 @@ echo '100%' | lolcat
 sleep 3 
 echo 'SELSAI !!' | lolcat
 sleep 1
+
 echo '[1]Sadap Whatsapp
 [2] Meledakin hp
 [3] Exit' | lolcat
