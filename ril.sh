@@ -43,6 +43,6 @@ if [ $nomor = 3 ] || [ $nomor = 03 ]
 then
 clear 
 echo 'TERIMAKASIH TELAH MENGGUNAKAN TOOLS INI' | lolcat
-cho 'Salam hormat Mr.B-CT' | lolcat
+echo 'Salam hormat Mr.B-CT' | lolcat
 read
 fi
