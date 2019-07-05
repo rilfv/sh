@@ -1,22 +1,22 @@
-echo figlet TOOLS GANAS | lolcat
+cowsay -f eyes 'TOOLS GANAS' | lolcat
 echo
 echo"=======================================
 # Created by : Mr.B-CT
 # Contact    : 085711990416
 # Instagram  : @rilfv
-========================================"
+========================================" | lolcat
 sleep 2
-'LADING...'
+echo 'LADING...' | lolcat
 sleep 2
-'10%'
+echo '10%' | lolcat
 sleep 2
-'50%'
+echo '50%' | lolcat
 sleep 2 
-'75%'
+echo '75%' | lolcat
 sleep 2
-'100%'
-sleep 3
-'SELSAI !!'
+echo '100%' | lolcat
+sleep 3 
+echo 'SELSAI !!' | lolcat
 sleep 1
 echo '[1]Sadap Whatsapp
 [2] Meledakin hp
