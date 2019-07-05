@@ -22,26 +22,27 @@ sleep 1
 echo '[1]Sadap Whatsapp
 [2] Meledakin hp
 [3] Exit' | lolcat
-read 'PILIH ! :' | lolcat
+echo 'PILIH ! :' | lolcat
+read nomor
 
-if
-clear
-[ $nomor = 01 ] || [ $nomor = 01 ]
+if [ $nomor = 01 ] || [ $nomor = 01 ]
 then
+clear
 echo 'MAAF TOOLS INI HANYA UNTUK BECANDA WKWK' | lolcat
+read
 fi
 
-if
-clear
-[ $nomor = 2 ] || [ $nomor = ]
+if [ $nomor = 2 ] || [ $nomor = ]
 then
+clear
 echo 'MAAF TOOLS INI HANYA UNTUK MENHIBUR' | lolcat
+read
 fi
 
-if 
-clear
-[ $nomor = 3 ] || [ $nomor = 03 ]
+if [ $nomor = 3 ] || [ $nomor = 03 ]
 then
+clear 
 echo 'TERIMAKASIH TELAH MENGGUNAKAN TOOLS INI' | lolcat
-echo 'Salam hormat Mr.B-CT' | lolcat
-sleep 4
+cho 'Salam hormat Mr.B-CT' | lolcat
+read
+fi
